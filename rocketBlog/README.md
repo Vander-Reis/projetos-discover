@@ -52,6 +52,6 @@ Para executar basta rodar o projeto em localhost
 Made with ❤️ by [Vander Reis](https://github.com/Vander-Reis), enter in contact!
 
 <a href="mailto:vanderreis2017@outlook.com" target="_blank"><img src="https://img.shields.io/badge/vanderreis2017@outlook.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email Badge" height="25"></a>&nbsp;
-<a href="https://www.linkedin.com/in/https://www.linkedin.com/in/vander-reis-044163201/" target="_blank"><img src="https://img.shields.io/badge/https://www.linkedin.com/in/vander-reis-044163201/-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
+<a href="https://www.linkedin.com/in/https://www.linkedin.com/" target="_blank"><img src="https://img.shields.io/badge/https://www.linkedin.com/-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="25"></a>&nbsp;
 
 <br clear="left"/>

@@ -28,6 +28,16 @@
 <img src="https://img.shields.io/badge/Git-05122A?style=flat&logo=git" alt="git Badge" height="25">&nbsp;
 <img src="https://img.shields.io/badge/Html5-05122A?style=flat&logo=html5" alt="html5 Badge" height="25">&nbsp;
 
+## Projects
+<center>
+	<a href="https://github.com/Vander-Reis/projetos-discover/tree/main/rocketBlog">
+		<img src="./imagens/blog1 - Copia.png" alt="rocketBlog" height="120">&nbsp;
+	</a>
+	<a href="https://github.com/Vander-Reis/projetos-discover/tree/main/portfolio">
+		<img src="./imagens/portfolio.png" alt="portfolio" height="120">&nbsp;
+	</a>
+</center>
+
 ## Installation
 To Install this project, follow the steps above:
 ```bash
