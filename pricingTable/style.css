@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+
+    font-size: 62.5%;
+}
+
+body::after {
+    content: '';
+    width: 100%;
+    height: 450px;
+    background: var(--blue);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    background: #E5E5E5;
+}
+
+.page {
+    width: 37rem;
+    margin: auto;
+    margin: 5rem;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #FFFFFF;
+    line-height: 6.5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+header p {
+    color: #FFFFFF;
+    line-height: 2.4rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card {
+    width: 35.5rem;
+    height: 47rem;
+    border: 1px solid #1D539E;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    border-radius: .8rem;
+    padding: 3rem 2rem;
+    margin-top: 7.5rem;
+    background: var(--page-background);
+    position: relative;
+    transition: transform 700ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card h2 {
+    color: #1E2338;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.card p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.9rem;
+    color: #1E2338;
+    margin-bottom: 1rem;
+}
+
+
+.card p span {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #828799;
+}
+
+.card .money {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #1E2338;
+}
+
+.card .description {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    margin-bottom: 4.1rem;
+    color: #828799;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.list span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828799;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover,  .card-basic button:hover, .card-profission button:hover {
+    background: #1D539E;
+    color: #FFFFFF;
+}
+
+.free{
+    margin-top: 12rem;
+    border: 1px solid #1D539E;
+    width: 29.6rem;
+    height: 4rem;
+    text-transform: uppercase;
+    color: var(--blue); 
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.card-basic {
+    border: none;    
+}
+
+.card-basic p {
+    margin-top: 1rem;
+}
+
+.card-basic::before {
+    content: "";
+    background: var(--yellow);
+    width: 35.5rem;
+    height: 7.6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: .8rem .8rem 0 0;
+}
+
+.basic {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    position: inherit;
+    z-index: 2;
+}
+
+.basic h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    color: #1D539E;
+}
+
+.basic span {
+    width: 94px;
+    height: 32px;
+    background: #1D539E;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-basic button {
+    margin-top: 6.9rem;
+    border: 1px solid #1D539E;
+    width: 29.6rem;
+    height: 4rem;
+    text-transform: uppercase;
+    color: var(--blue); 
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.card-profission button {
+    margin-top: 4.2rem;
+    border: 1px solid #1D539E;
+    width: 29.6rem;
+    height: 4rem;
+    text-transform: uppercase;
+    color: var(--blue); 
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+} 
+
+@media (min-width: 768px) {
+    .page {
+        width: 1024px;
+        margin: auto;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    header h1 {
+        margin-top: 10rem;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 65px;
+    }
+
+    header p {
+        width: 55rem;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        
+    }
+}
