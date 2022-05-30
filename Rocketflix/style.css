@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+body {
+    width: 1100px;
+    height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+    font-size: 1.6rem;
+}
+
+
+main {
+    text-align: center;
+    margin-top: 12.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #FFFCF9;
+
+}
+
+.insertMovies {
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 62.8rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 3.4rem;
+}
+
+.insertMovies img {
+    width: 17rem;
+    height: 24rem;
+    object-fit: cover;
+}
+
+.insertMovies h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 1.9rem;
+    color: #FFFCF9;
+}
+
+.insertMovies p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFCF9;
+}
+
+.search {
+    margin-top: 3rem;
+}
+
+button {
+    margin: auto;
+    margin-bottom: 2.6rem;
+    border-radius: .5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.7rem;
+    width: 18rem;
+    height: 4.7rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    cursor: pointer;
+}
+
+.search p {
+    margin: auto;
+    width: 38rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFCF9;
+}
