@@ -1,0 +1,111 @@
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    background: var(--backgrond);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.page {
+    max-width: 38rem;
+    margin: auto;
+    padding: 0 3rem 0 3rem;
+    position: relative;
+}
+
+header {
+    margin-top: 3.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.mobile {
+    text-align: center;
+    margin-top: 8.85rem;
+    position: relative;
+}
+
+section.mobile h2 {
+    width: 37.3rem;
+    font-weight: 600;
+    font-size: 3.0rem;
+    line-height: 4.1rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: var(--text-color);
+}
+
+.button-mobile {
+    margin: auto;
+    margin-top: 8.8rem;
+    width: 17.412rem;
+    height: 3.5rem;
+    background: var(--backgrond);
+    color: var(--text-color);
+    border: 1px solid #8257E5;
+    border-radius: .6rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 0rem 0rem 0rem 2rem;
+
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 15px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.great-white {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.great-purple {
+    font-size: 5rem;
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+    color: #000;
+}
+
+.coffee-mobile {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 428px;
+    
+}
+
+.blur-mobile {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 139px;
+}
