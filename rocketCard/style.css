@@ -11,18 +11,169 @@
     --img-profile: #8257e5;
     --buttons: #FFF;
     --border-button: #1A1A1A;
+    font-size: 62.5%;
 }
 
 body {
-    background: var(--bg);
-    color: var(--text);
+    background: var(--border-button);
+    color: var(--buttons);
+    font-size: 1.6rem;
+    font-family: 'Prompt', sans-serif;
 }
 
 .page {
-    width: 1100px;
+    width: 1000px;
     margin: auto;
+    padding: 6.6rem 0 6.6rem 0 ;
+}
+
+.title {
+    margin-bottom: 2.2rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+
 }
 
 .user-img {
     width: 372px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 14.6rem;
+}
+
+.card-git {
+    width: 43.8rem;
+    height: 69.3rem;
+    background: #000000;
+    border-radius: 5.0rem;
+    
+    padding: 2.4rem 1.4rem 2.5rem 1.6rem;
+}
+
+.card {
+    width: 40.7rem;
+    height: 64.4rem;
+
+
+    background: #0E1218;
+    border-radius: 5rem;
+    position: relative;
+    overflow: hidden;   
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1.9rem;
+    padding: 3.7rem 0 2rem 3.3rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+
+.user img {
+    width: 3rem;
+    padding: .4rem;
+}
+
+.logo {
+    border: 1px solid white;
+
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+.img {
+    right: -50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.user-img {
+  width: 37rem;
+  height: 37rem;
+  border: 6px solid var(--img-profile);
+  border-radius: 50%;
+}
+
+.github {
+  top: 400px;
+  left: 20.13px;
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background: var(--bg);
+  background: linear-gradient(66deg, rgba(0,0,0,0.2748267898383372) 0%, rgba(34,35,38,1) 100%);
+  padding: 3rem 2rem;
+  border-radius: 50px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info img {
+    width: 2rem;
+}
+
+.info span {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.footer-card {
+    position: absolute;
+    bottom: 2.7rem;
+    right: .6rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-card img {
+    width: 2.8rem;
+}
+
+.customize {
+    text-align: center;
+}
+
+.customize h2 {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+}
+
+button {
+    width: 229px;
+    height: 59.47px;
+    border-radius: 1.5rem;
+    background: #000000;
+    border: 2px solid #1A1A1A;
+    color: var(--buttons);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    cursor: pointer;
+    margin-top: 3.3rem;
+    transition: all 600ms;
+}
+
+button:hover{
+    background: rgb(20, 20, 20);
 }
