@@ -10,6 +10,8 @@
 	<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
 </p>
 
+
+
 <h4 align="center">
 	Status: 🚀 Finished
 </h4>
@@ -22,7 +24,9 @@
 </p>
 
 ## About
-O rocket card, busca suas informações na API do github e monda o seu card.
+O rocket card, busca suas informações na API do github e monta o seu card.
+
+![Screenshot_3](https://user-images.githubusercontent.com/77352309/171966764-ae091c52-d156-48be-bdcc-159bb077711c.png)
 
 ## Tech Stack
 <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
