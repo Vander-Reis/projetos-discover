@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #000000;
+    --bg-card: #0E1218;
+    --text: #F1F1F1;
+    --img-profile: #8257e5;
+    --buttons: #FFF;
+    --border-button: #1A1A1A;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+}
+
+.page {
+    width: 1100px;
+    margin: auto;
+}
+
+.user-img {
+    width: 372px;
+}
