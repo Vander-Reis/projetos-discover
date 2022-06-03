@@ -4,6 +4,7 @@ const repository = document.querySelector('.user-repository')
 const company = document.querySelector('.user-company')
 const location = document.querySelector('.user-location')
 const userImg = document.querySelector('.user-img')
+const backgroundButton = document.querySelector('button')
 
 export {
     followers,
@@ -11,5 +12,6 @@ export {
     repository,
     company,
     location,
-    userImg
+    userImg,
+    backgroundButton
 }
